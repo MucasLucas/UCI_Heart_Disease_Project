@@ -1,0 +1,15 @@
+variable,meaning,unit,type,notes
+age,Age,years,numeric,
+sex,Recorded sex,code,categorical,0=female;1=male
+cp,Chest pain type,code,categorical,1=typical angina;2=atypical angina;3=non-anginal pain;4=asymptomatic
+trestbps,Resting blood pressure on admission,mm Hg,numeric,Audit zero values
+chol,Serum cholesterol,mg/dL,numeric,Audit zero values
+fbs,Fasting blood sugar above 120 mg/dL,code,categorical,0=false;1=true
+restecg,Resting ECG,code,categorical,0=normal;1=ST-T abnormality;2=probable/definite LV hypertrophy
+thalach,Maximum heart rate achieved,beats/min,numeric,Exercise-test measurement; audit zeros
+exang,Exercise-induced angina,code,categorical,0=no;1=yes
+oldpeak,Exercise-induced ST depression relative to rest,source does not specify unit,numeric,Valid zeros; audit negative values rather than deleting
+slope,Peak exercise ST-segment slope,code,categorical,1=upsloping;2=flat;3=downsloping
+ca,Major vessels colored by fluoroscopy,count 0-3,categorical/count,Angiography-related; excluded from primary model
+thal,Thallium test result,code,categorical,3=normal;6=fixed defect;7=reversible defect; not thalassemia
+num,Angiographic disease status,code 0-4,outcome,0=absence;1-4=presence; never use as predictor

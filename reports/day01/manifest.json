@@ -1,0 +1,28 @@
+{
+  "source_manifest": {
+    "processed.cleveland.data": {
+      "sha256": "a74b7efa387bc9d108d7d0115d831fe9b414b29ae7124f331b622b4efa0427c8",
+      "bytes": 18461
+    },
+    "processed.hungarian.data": {
+      "sha256": "d1ad108f785768cd3d7e82dc522e6f5a61eea93cccfb3a46ee8076f73fc3d796",
+      "bytes": 10263
+    },
+    "processed.switzerland.data": {
+      "sha256": "834a405ccf5b66ab4056bb77794adc8df0b7125186454c0a1d002d33c6c3b314",
+      "bytes": 4109
+    },
+    "processed.va.data": {
+      "sha256": "e7c93d8d0d2acdadfa4c5e8de768e2191e7f618b952e29623f1f0d5949ff6b8f",
+      "bytes": 6737
+    }
+  },
+  "seed": 42,
+  "split_method": "First fold, StratifiedGroupKFold(n_splits=5)",
+  "development_n": 242,
+  "locked_test_n": 61,
+  "python": "3.12.14",
+  "pandas": "2.2.3",
+  "numpy": "2.3.5",
+  "scikit_learn": "1.8.0"
+}
