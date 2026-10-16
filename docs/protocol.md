@@ -1,36 +1,13 @@
-# Study protocol — dual objectives, amended before modeling
+# Study protocol — draft frozen before modeling
 
 ## Research question
 How well can interpretable models identify existing angiographic coronary artery
 disease in the historical Cleveland referral cohort, and how does performance
 change in other UCI cohorts with different case mix and data completeness?
 
-The UCI component is a retrospective educational diagnostic classification study.
-It does not estimate future myocardial infarction, mortality, or 10-year ASCVD risk.
+This is a retrospective educational diagnostic classification study. It does
+not estimate future myocardial infarction, mortality, or 10-year ASCVD risk.
 It does not establish clinical readiness, AHA endorsement, or treatment benefit.
-
-## Added objective: future cardiovascular event risk
-Requested October 15, 2026. Add an independent longitudinal cohort and model for
-future event risk; never reinterpret UCI `num` or its prediction as a future label
-or risk estimate. Preserve the existing UCI split and all diagnostic-study rules.
-The Framingham longitudinal teaching source is a candidate pending access and
-use verification; its documentation warns against publication use. See
-`reports/day03/future_risk_source_audit.md` for findings and the blocked data gate.
-
-Provisional target: ten-year cumulative incidence of the source-defined first CVD
-event in participants without baseline CHD or stroke. Confirm endpoint, follow-up,
-and eligibility against the actual file before freezing this target. Use one
-baseline exam per participant, baseline predictors only, and a separate participant
-split. Account for early censoring and competing death; do not code early censoring
-as a ten-year non-event. Evaluate horizon-specific calibration and discrimination
-with uncertainty. A Cox survival probability alone is not automatically a
-competing-risk cumulative incidence estimate.
-
-Keep cohort definitions, preprocessing, models, calibration, performance claims,
-and report sections separate for the two objectives. No patient linkage across
-unrelated sources. Source counts and suitability review are not a completed
-participant-data audit. If data access or permitted use cannot be resolved within
-the project, report this objective as an uncompleted extension, not a trained model.
 
 ## Outcome and sources
 Use original UCI processed files with 13 predictors and num. Binary outcome:

@@ -41,8 +41,8 @@ reference run reproduces both uploaded CSVs numerically. No models were fitted.
 Retain extreme observations unless a documented measurement or coding error is
 confirmed; boxplot outliers alone do not justify deletion. Treat nominal numeric
 codes as categories. Fit imputation and encoding within training folds. Never
-fit preprocessing or choose predictors using the locked test. Keep the future-risk
-objective separate: these data do not supply prospective outcome labels.
+fit preprocessing or choose predictors using the locked test. The study outcome
+is existing angiographic CAD.
 
 ## Reproduce
 From the repository root, place the unchanged processed Cleveland input in
@@ -53,4 +53,4 @@ command. The run manifest describes the reference environment, not Lucas's
 Windows environment. His complete local `environment.txt` remains unavailable;
 this is a follow-up reproducibility item, not a blocker for this reviewed gate.
 
-Day 2 is complete when this reviewed work is committed and verified on `main`.
+Day 2 is complete: reviewed work was committed and verified on `main` as 2b96f81.
