@@ -1,0 +1,13 @@
+{
+  "source_sha256": "a74b7efa387bc9d108d7d0115d831fe9b414b29ae7124f331b622b4efa0427c8",
+  "split_sha256": "6192e7b58328ef3ae1105f64484e2ef3c195622d69e7048936a9213cb368efc0",
+  "development_n": 242,
+  "excluded_predictors": [
+    "ca"
+  ],
+  "holdout_summarized": false,
+  "models_fitted": false,
+  "python": "3.12.14",
+  "pandas": "2.2.3",
+  "matplotlib": "3.10.8"
+}

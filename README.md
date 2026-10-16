@@ -2,7 +2,7 @@
 
 An evaluation-first study of the historical UCI Heart Disease cohorts, emphasizing
 sensitivity, calibration, predictor availability, and cross-site transportability.
-Status: Day 1 audit and protocol reviewed; no models trained.
+Status: Day 2 development EDA reviewed; no models trained.
 
 ## Start here
 Requires Python 3.10 or newer. From this directory:
@@ -29,6 +29,13 @@ counts for integrity; subsequent EDA uses development rows only.
 - Leakage-safe model comparison, calibration, and sensitivity-driven thresholds.
 - SHAP interpretation, uncertainty estimates, and cross-site/subgroup analyses.
 - Research report and one-page executive summary for healthcare audiences.
+
+## Development-only EDA
+After the Day 1 review, run `python scripts/day02_eda.py` from this directory.
+The script verifies the source hash and frozen split, excludes `ca`, and produces
+development-only summaries and PNG/SVG boxplots. See
+`reports/day02/interpretation.md` for reviewed observations and limitations.
+The committed run manifest records the independent reference environment.
 
 See docs/protocol.md, docs/data_dictionary.csv, and docs/project_plan.md.
 Lucas completed the local audit on October 14, 2026; its terminal results matched

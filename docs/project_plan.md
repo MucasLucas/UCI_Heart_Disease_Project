@@ -31,6 +31,7 @@ commit. Never invent results or advance solely because the calendar changes.
 Direct GitHub pushes require a specified accessible repository and reviewed work.
 
 ## Progress
-- Current day: 1
-- State: starter prepared; awaiting Lucas's local run and output review
-- Next input: audit stdout/errors, protocol questions, and target GitHub URL
+- Day 1: local audit and protocol reviewed; committed as b460a31.
+- Day 2: local EDA returned exit code 0; uploaded tables and figure reviewed;
+  documentation and reproducible reference outputs prepared for commit.
+- Next gate: Day 3 preprocessing and predictor availability.
