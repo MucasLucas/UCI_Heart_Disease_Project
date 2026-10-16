@@ -1,8 +1,15 @@
-# Interpretable Coronary Artery Disease Classification
+# Heart Disease: CAD Classification and Future Cardiovascular Risk
 
 An evaluation-first study of the historical UCI Heart Disease cohorts, emphasizing
 sensitivity, calibration, predictor availability, and cross-site transportability.
 Status: Day 2 development EDA reviewed; no models trained.
+
+Two separate objectives: existing CAD classification in UCI, and future CVD risk
+in a longitudinal cohort. UCI supports the first objective only. The future-risk
+source audit is documented in `reports/day03/future_risk_source_audit.md`;
+participant data and permitted use are not yet verified. Framingham teaching data
+are explicitly unsuitable for publication; do not present a teaching analysis as
+original clinical research. No future-risk model or performance result exists yet.
 
 ## Start here
 Requires Python 3.10 or newer. From this directory:
