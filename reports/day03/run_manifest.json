@@ -1,0 +1,13 @@
+{
+  "source_sha256": "a74b7efa387bc9d108d7d0115d831fe9b414b29ae7124f331b622b4efa0427c8",
+  "split_sha256": "6192e7b58328ef3ae1105f64484e2ef3c195622d69e7048936a9213cb368efc0",
+  "development_n": 242,
+  "locked_test_n": 61,
+  "holdout_analyzed": false,
+  "classifiers_fitted": false,
+  "python": "3.12.14",
+  "pandas": "2.2.3",
+  "numpy": "2.3.5",
+  "scikit_learn": "1.8.0",
+  "script_sha256": "50a6bcfff16381f7d5ee4d8575ad9be1e6234426574ebb6a38720ed8332d1714"
+}

@@ -1,0 +1,6 @@
+fold,train_n,valid_n,train_positive_n,valid_positive_n,transformed_columns,finite
+1,193,49,88,23,24,True
+2,193,49,89,22,24,True
+3,194,48,89,22,24,True
+4,194,48,89,22,24,True
+5,194,48,89,22,24,True

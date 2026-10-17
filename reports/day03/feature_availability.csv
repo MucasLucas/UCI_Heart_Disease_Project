@@ -1,0 +1,15 @@
+feature,included,setting,timing
+age,True,basic presentation/workup,Assumed from variable meaning; individual timestamps unavailable
+trestbps,True,basic presentation/workup,Assumed from variable meaning; individual timestamps unavailable
+chol,True,basic presentation/workup,Assumed from variable meaning; individual timestamps unavailable
+thalach,True,later diagnostic workup,Assumed from variable meaning; individual timestamps unavailable
+oldpeak,True,later diagnostic workup,Assumed from variable meaning; individual timestamps unavailable
+sex,True,basic presentation/workup,Assumed from variable meaning; individual timestamps unavailable
+cp,True,basic presentation/workup,Assumed from variable meaning; individual timestamps unavailable
+fbs,True,basic presentation/workup,Assumed from variable meaning; individual timestamps unavailable
+restecg,True,basic presentation/workup,Assumed from variable meaning; individual timestamps unavailable
+exang,True,later diagnostic workup,Assumed from variable meaning; individual timestamps unavailable
+slope,True,later diagnostic workup,Assumed from variable meaning; individual timestamps unavailable
+thal,True,later diagnostic workup,Assumed from variable meaning; individual timestamps unavailable
+ca,False,angiography-related,Excluded from primary model
+num,False,outcome,Never a predictor
