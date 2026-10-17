@@ -34,6 +34,12 @@ Direct GitHub pushes require a specified accessible repository and reviewed work
 - Day 1: local audit and protocol reviewed; committed as b460a31.
 - Day 2: complete; local EDA returned exit code 0; uploaded tables and figure
   reviewed; interpretation and reproducible outputs committed as 2b96f81.
-- Current task: Day 3 leakage-safe preprocessing and predictor availability.
+- Day 3: complete; Lucas's local five-fold preprocessing run returned exit code 0
+  and matched the reference results. On October 16, 2026, Lucas confirmed the
+  12-predictor later-workup setting excluding ca, unweighted baseline without
+  automatic oversampling, and retention of extreme observations pending verification.
+  See reports/day03/README.md. Local environment.txt upload remains a provenance
+  follow-up, not a modeling gate.
+- Current task: Day 4 dummy and regularized logistic-regression baselines.
 - Scope: existing coronary artery disease classification using UCI Heart Disease.
 - Original October 14–23 schedule and completion gates remain in effect.

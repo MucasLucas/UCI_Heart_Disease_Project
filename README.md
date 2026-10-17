@@ -2,7 +2,8 @@
 
 An evaluation-first study of the historical UCI Heart Disease cohorts, emphasizing
 sensitivity, calibration, predictor availability, and cross-site transportability.
-Status: Day 2 development EDA reviewed; no models trained.
+Status: Day 3 preprocessing reviewed and decisions confirmed; no models trained.
+Next: Day 4 dummy and regularized logistic-regression baselines.
 
 ## Start here
 Requires Python 3.10 or newer. From this directory:
