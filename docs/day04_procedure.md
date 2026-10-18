@@ -1,7 +1,8 @@
 # Day 4: development-only baselines
 
-Status: runnable procedure and independent reference check prepared. Lucas's
-local execution, output interpretation, and completion review remain pending.
+Status: Day 4 complete. Lucas's successful local run and four uploaded CSVs were
+reviewed on October 17, 2026. See reports/day04/interpretation.md and
+reports/day04/review_checks.json for findings and verification.
 
 ## Purpose and fixed analysis choices
 
@@ -93,6 +94,7 @@ Paste terminal output and exit code, and provide `oof_metrics.csv`,
 4. Limitations: small development cohort, provisional uncalibrated threshold,
    and observational coefficients rather than causal effects.
 
-Keep Day 4 open until local outputs and interpretation are reviewed and committed.
+Day 4's local output and interpretation review has passed; the reviewed files
+are committed under reports/day04.
 Do not evaluate the 61 locked test records or cross-site cohorts yet. The local
 package-version file is a provenance follow-up and can be included with this review.

@@ -2,8 +2,9 @@
 
 An evaluation-first study of the historical UCI Heart Disease cohorts, emphasizing
 sensitivity, calibration, predictor availability, and cross-site transportability.
-Status: Day 3 preprocessing reviewed and decisions confirmed; no models trained.
-Next: Day 4 dummy and regularized logistic-regression baselines.
+Status: Day 4 dummy and logistic baselines reviewed; development CV only.
+Next: Day 5 Random Forest and XGBoost. The 61-record internal test remains locked.
+See reports/day04/interpretation.md for the reviewed local results.
 
 ## Start here
 Requires Python 3.10 or newer. From this directory:

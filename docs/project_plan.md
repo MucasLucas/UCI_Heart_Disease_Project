@@ -40,6 +40,11 @@ Direct GitHub pushes require a specified accessible repository and reviewed work
   automatic oversampling, and retention of extreme observations pending verification.
   See reports/day03/README.md. Local environment.txt upload remains a provenance
   follow-up, not a modeling gate.
-- Current task: Day 4 dummy and regularized logistic-regression baselines.
+- Day 4: complete; local baseline execution returned exit code 0. Four uploaded
+  CSVs reviewed and 18 metric groups independently reconciled against 726
+  development-only predictions. Interpretation recorded in
+  reports/day04/interpretation.md. No model or threshold selected.
+  Local environment and run-manifest uploads remain provenance follow-ups.
+- Current task: Day 5 Random Forest and XGBoost with development-only evaluation.
 - Scope: existing coronary artery disease classification using UCI Heart Disease.
 - Original October 14–23 schedule and completion gates remain in effect.

@@ -1,0 +1,18 @@
+{
+  "review_date_local": "2026-10-17",
+  "timezone": "America/Los_Angeles",
+  "prediction_rows": 726,
+  "unique_development_ids_per_model": 242,
+  "metric_groups_recomputed": 18,
+  "metrics_reconcile": true,
+  "holdout_ids_present": false,
+  "uploaded_tables_match_reference_within_tolerance": true,
+  "local_environment_uploaded": false,
+  "local_run_manifest_uploaded": false,
+  "uploaded_sha256": {
+    "coefficient_contrasts.csv": "c24f33dcc27ddfe7c0f90d299d4d025819abce61cb7222adb14d076d98f618c7",
+    "fold_metrics.csv": "ea44ba0b02729c8d114815bac8381c2abec36d9d8bbff89724eac2ac1df02f0c",
+    "oof_metrics.csv": "1d28172ca8652771e0e881cf6937935ace7e9fa5d714cb825b4e68d89acc501d",
+    "oof_predictions.csv": "ea1dc03b93dac99e434959e8595b20a4b583f8cdbb47e6ae5ea85dffd7eb7138"
+  }
+}

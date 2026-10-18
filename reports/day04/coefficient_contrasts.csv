@@ -1,0 +1,35 @@
+model,feature,comparison,raw_units,log_odds_contrast,odds_ratio
+logistic_unweighted,age,increase by one development SD,8.948299163502583,0.09227097976209911,1.096661955016166
+logistic_unweighted,trestbps,increase by one development SD,17.699925447187862,0.12930926305384466,1.1380420240998794
+logistic_unweighted,chol,increase by one development SD,49.34776488127306,0.3285529101426999,1.388956728282654
+logistic_unweighted,thalach,increase by one development SD,23.20110274612011,-0.4134460831676829,0.661367192243153
+logistic_unweighted,oldpeak,increase by one development SD,1.1780822879553792,0.6053678147553124,1.8319258943570331
+logistic_unweighted,sex,category 1 vs 0,,1.3631454941190255,3.908468049865868
+logistic_unweighted,cp,category 2 vs 1,,0.5498435947731086,1.7329819492347036
+logistic_unweighted,cp,category 3 vs 1,,0.11271048956212804,1.1193078347345942
+logistic_unweighted,cp,category 4 vs 1,,1.410801992604936,4.099241647610757
+logistic_unweighted,fbs,category 1 vs 0,,0.04390573562626439,1.044883854923787
+logistic_unweighted,restecg,category 1 vs 0,,0.23116636936477716,1.2600688588672484
+logistic_unweighted,restecg,category 2 vs 0,,0.5022706358483013,1.6524691697679457
+logistic_unweighted,exang,category 1 vs 0,,0.5525553110208492,1.7376876819658407
+logistic_unweighted,slope,category 2 vs 1,,0.5861013632540362,1.796969011815537
+logistic_unweighted,slope,category 3 vs 1,,0.16211054711014863,1.1759902364577772
+logistic_unweighted,thal,category 6 vs 3,,0.48771132070347095,1.6285846434371882
+logistic_unweighted,thal,category 7 vs 3,,1.2364592930073535,3.443399785294095
+logistic_balanced,age,increase by one development SD,8.948299163502583,0.10358148731791225,1.1091361702144444
+logistic_balanced,trestbps,increase by one development SD,17.699925447187862,0.1311334222775967,1.1401198885567816
+logistic_balanced,chol,increase by one development SD,49.34776488127306,0.328849581497533,1.3893688530868276
+logistic_balanced,thalach,increase by one development SD,23.20110274612011,-0.4166019954647592,0.659283265462967
+logistic_balanced,oldpeak,increase by one development SD,1.1780822879553792,0.5974774283281473,1.817528167656263
+logistic_balanced,sex,category 1 vs 0,,1.3963559788036677,4.040449623813801
+logistic_balanced,cp,category 2 vs 1,,0.5157481408098024,1.6748910875584193
+logistic_balanced,cp,category 3 vs 1,,0.08162550673077817,1.0850493900402178
+logistic_balanced,cp,category 4 vs 1,,1.385705904168682,3.997646864622504
+logistic_balanced,fbs,category 1 vs 0,,0.014172185515414631,1.0142730870381091
+logistic_balanced,restecg,category 1 vs 0,,0.20418891901328884,1.2265298463782695
+logistic_balanced,restecg,category 2 vs 0,,0.507386200301714,1.660944140962078
+logistic_balanced,exang,category 1 vs 0,,0.5388990427808523,1.714118651652064
+logistic_balanced,slope,category 2 vs 1,,0.5792982012420207,1.7847854309259572
+logistic_balanced,slope,category 3 vs 1,,0.16944310248773664,1.1846449417654412
+logistic_balanced,thal,category 6 vs 3,,0.4910204478544609,1.6339827637057152
+logistic_balanced,thal,category 7 vs 3,,1.2251829677191293,3.404788992278951
