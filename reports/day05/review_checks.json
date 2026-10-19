@@ -1,0 +1,23 @@
+{
+  "review_date_local": "2026-10-18",
+  "timezone": "America/Los_Angeles",
+  "prediction_rows": 1210,
+  "metric_groups_recomputed": 30,
+  "metrics_reconcile": true,
+  "inner_membership_rows": 968,
+  "inner_assignments_exclude_outer_validation": true,
+  "duplicate_predictor_groups_kept_together": true,
+  "search_candidates_checked": 40,
+  "selected_parameters_reconstructed_from_uploaded_search": true,
+  "reference_match_within_tolerance": true,
+  "local_manifest_uploaded": false,
+  "local_environment_uploaded": false,
+  "local_exit_code_supplied": false,
+  "sha256": {
+    "oof_metrics(1).csv": "a39d52a24d66928c386b762ff06128114031fb2fdb120a418e379d9c8d22e373",
+    "fold_metrics(1).csv": "8ced395e87db5581acbbc948fca106f0c30f211edc3ff2f0181c12c7e6f37fcc",
+    "oof_predictions(1).csv": "6ad2510639a2469730f567c544a200d67329cf9ec6158b6afcb1e1c5eedacca5",
+    "inner_search_results.csv": "937dabb75b1b8dd93dd3fc52ca75e130a4cb9fb11be342262b77b5e9bbfba1e1",
+    "inner_fold_assignments.csv": "06edf0bade3e2019a34a20fa6434fe9e408b46d7e1996fa59b0501b48a83302f"
+  }
+}

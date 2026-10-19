@@ -1,8 +1,10 @@
 # Day 5: nested tree-model comparison
 
-Status: procedure prepared. Day 5 remains open until Lucas's local outputs,
-interpretation, and completion commit are reviewed. Existing CAD remains the
-outcome. The 12 primary predictors exclude ca and require the later-workup setting.
+Status: Day 5 output review complete on October 18, 2026. Five uploaded CSVs,
+reconstructed parameter selections, and interpretation are recorded under
+reports/day05. Local environment and run-manifest files remain provenance
+follow-ups. Existing CAD remains the outcome. The 12 primary predictors exclude
+ca and require the later-workup setting.
 
 ## Why this step matters
 

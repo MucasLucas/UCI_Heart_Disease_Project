@@ -1,0 +1,11 @@
+model,outer_fold,parameters,best_mean_inner_roc_auc
+random_forest_nested,1,"{""classifier__max_depth"": 3, ""classifier__min_samples_leaf"": 8}",0.88831964969896
+random_forest_nested,2,"{""classifier__max_depth"": 3, ""classifier__min_samples_leaf"": 3}",0.8622872597314787
+random_forest_nested,3,"{""classifier__max_depth"": 3, ""classifier__min_samples_leaf"": 8}",0.8648385331143952
+random_forest_nested,4,"{""classifier__max_depth"": null, ""classifier__min_samples_leaf"": 8}",0.8464696223316913
+random_forest_nested,5,"{""classifier__max_depth"": null, ""classifier__min_samples_leaf"": 8}",0.8454625068418172
+xgboost_nested,1,"{""classifier__max_depth"": 1, ""classifier__n_estimators"": 250}",0.8780240831964968
+xgboost_nested,2,"{""classifier__max_depth"": 1, ""classifier__n_estimators"": 250}",0.8278663189413699
+xgboost_nested,3,"{""classifier__max_depth"": 2, ""classifier__n_estimators"": 250}",0.8631417624521074
+xgboost_nested,4,"{""classifier__max_depth"": 2, ""classifier__n_estimators"": 250}",0.8359660645867543
+xgboost_nested,5,"{""classifier__max_depth"": 2, ""classifier__n_estimators"": 250}",0.8407936507936508

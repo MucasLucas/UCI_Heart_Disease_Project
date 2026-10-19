@@ -45,8 +45,12 @@ Direct GitHub pushes require a specified accessible repository and reviewed work
   development-only predictions. Interpretation recorded in
   reports/day04/interpretation.md. No model or threshold selected.
   Local environment and run-manifest uploads remain provenance follow-ups.
-- Current task: Day 5 Random Forest and XGBoost with development-only evaluation.
-  Runnable nested-CV procedure: docs/day05_procedure.md and
-  scripts/day05_tree_models.py. Local output review and interpretation remain pending.
+- Day 5: complete; five uploaded CSVs reviewed. All 1,210 predictions reconcile
+  with 30 metric groups. Inner assignments exclude outer validation and 40 search
+  candidates match the prespecified grids. Selected parameters reconstructed from
+  uploaded search results. See reports/day05/interpretation.md. Local manifest,
+  environment, and terminal exit-code evidence remain provenance follow-ups.
+- Current task: Day 6 calibration and threshold selection using development data.
+  No final model, calibrator, configuration, or decision threshold is selected yet.
 - Scope: existing coronary artery disease classification using UCI Heart Disease.
 - Original October 14–23 schedule and completion gates remain in effect.
