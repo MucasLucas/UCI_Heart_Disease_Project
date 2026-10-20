@@ -51,6 +51,9 @@ Direct GitHub pushes require a specified accessible repository and reviewed work
   uploaded search results. See reports/day05/interpretation.md. Local manifest,
   environment, and terminal exit-code evidence remain provenance follow-ups.
 - Current task: Day 6 calibration and threshold selection using development data.
-  No final model, calibrator, configuration, or decision threshold is selected yet.
+  Runnable procedure: docs/day06_procedure.md and scripts/day06_calibration.py.
+  Compare ten fixed logistic/forest and sigmoid/no-calibration candidates using
+  three-level development validation. A proposed bundle/cutoff is pending local
+  review; an accepted model/hash/threshold freeze must precede final test access.
 - Scope: existing coronary artery disease classification using UCI Heart Disease.
 - Original October 14–23 schedule and completion gates remain in effect.
