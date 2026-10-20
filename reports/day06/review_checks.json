@@ -1,0 +1,49 @@
+{
+  "review_date_local": "2026-10-19",
+  "timezone": "America/Los_Angeles",
+  "policy_records_reconciled": 242,
+  "policy_metrics_recomputed": true,
+  "locked_test_ids_present": false,
+  "outer_thresholds_match_recorded_training_selections": true,
+  "final_summary_selection_rule_reconciled": true,
+  "uploaded_tables_match_reference_within_tolerance": true,
+  "manifest_hash_checks": {
+    "scripts/day03_preprocessing.py": [
+      "exact",
+      "LF"
+    ],
+    "scripts/day04_baselines.py": [
+      "exact",
+      "LF"
+    ],
+    "scripts/day06_calibration.py": [
+      "exact",
+      "LF"
+    ],
+    "reports/day01/cleveland_split.csv": [
+      "CRLF"
+    ],
+    "reports/day03/development_folds.csv": [
+      "CRLF"
+    ],
+    "data/raw/processed.cleveland.data": [
+      "exact",
+      "LF"
+    ]
+  },
+  "reported_local_model_sha256": "948f8939076cdc1e001a74d7bb414b28c88e21b7de32b0a2172fdc4a805ce1ae",
+  "local_model_binary_supplied": false,
+  "local_model_binary_checksum_independently_verified": false,
+  "full_local_candidate_predictions_supplied": false,
+  "local_inner_membership_supplied": false,
+  "local_exit_code_supplied": false,
+  "source_sha256": {
+    "candidate_freeze.json": "05871e41a2c5f573f2d883306e0ab30f48c2d7c6e39243f54500de91834d85b4",
+    "run_manifest.json": "13aa549f831517045b165d4f7bb8c6981a86c87a7e75117c22fc96be6520b3f3",
+    "policy_oof_metrics.csv": "ffe6543201c01379a4a0f42031ed2938f61693d97080477bed33e818ed2897bc",
+    "policy_oof_predictions.csv": "40346f80212a7824af4bd043fe44980c0cebc1293dd3226d2cef7cc5ee099f78",
+    "outer_selection.csv": "5fa60d88b831778f8e9f0efa8b60b96a43ad9006c8f24417f2636bfa2ec1d7cf",
+    "final_selection_metrics.csv": "1982a2294756a98c58602cf26b451b11f52e562ef01fe46e03637a159f6d87e5",
+    "calibration_threshold.png": "ab4d7f90c5cae904271484d49a15779d88f90abef1bbd389639f94dc1926ddff"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "status": "candidate_pending_local_review_not_accepted_freeze",
+  "selected": {
+    "candidate": "c06",
+    "family": "random_forest",
+    "max_depth": null,
+    "min_samples_leaf": 3,
+    "calibration": "none"
+  },
+  "threshold": 0.3528716233973672,
+  "decision_rule": "probability >= threshold",
+  "selection_sensitivity": 0.9009009009009009,
+  "selection_specificity": 0.6717557251908397,
+  "selection_scores_are_not_independent_performance": true,
+  "sensitivity_target": 0.9,
+  "selection_rule": "sensitivity >= 0.90, maximize specificity, tie: lower Brier then candidate ID",
+  "within_candidate_threshold_tie": "highest threshold at maximum feasible specificity",
+  "features": [
+    "age",
+    "trestbps",
+    "chol",
+    "thalach",
+    "oldpeak",
+    "sex",
+    "cp",
+    "fbs",
+    "restecg",
+    "exang",
+    "slope",
+    "thal"
+  ],
+  "development_n": 242,
+  "locked_test_n": 61,
+  "holdout_analyzed": false,
+  "model_path": "models/day06_candidate.joblib",
+  "model_sha256": "948f8939076cdc1e001a74d7bb414b28c88e21b7de32b0a2172fdc4a805ce1ae"
+}

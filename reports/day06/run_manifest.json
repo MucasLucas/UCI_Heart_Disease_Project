@@ -1,0 +1,95 @@
+{
+  "python": "3.12.10",
+  "scikit_learn": "1.9.1",
+  "pandas": "2.3.3",
+  "numpy": "2.5.4",
+  "joblib": "1.6.0",
+  "candidates": [
+    {
+      "candidate": "c00",
+      "family": "logistic",
+      "max_depth": null,
+      "min_samples_leaf": null,
+      "calibration": "none"
+    },
+    {
+      "candidate": "c01",
+      "family": "logistic",
+      "max_depth": null,
+      "min_samples_leaf": null,
+      "calibration": "sigmoid"
+    },
+    {
+      "candidate": "c02",
+      "family": "random_forest",
+      "max_depth": 3,
+      "min_samples_leaf": 3,
+      "calibration": "none"
+    },
+    {
+      "candidate": "c03",
+      "family": "random_forest",
+      "max_depth": 3,
+      "min_samples_leaf": 3,
+      "calibration": "sigmoid"
+    },
+    {
+      "candidate": "c04",
+      "family": "random_forest",
+      "max_depth": 3,
+      "min_samples_leaf": 8,
+      "calibration": "none"
+    },
+    {
+      "candidate": "c05",
+      "family": "random_forest",
+      "max_depth": 3,
+      "min_samples_leaf": 8,
+      "calibration": "sigmoid"
+    },
+    {
+      "candidate": "c06",
+      "family": "random_forest",
+      "max_depth": null,
+      "min_samples_leaf": 3,
+      "calibration": "none"
+    },
+    {
+      "candidate": "c07",
+      "family": "random_forest",
+      "max_depth": null,
+      "min_samples_leaf": 3,
+      "calibration": "sigmoid"
+    },
+    {
+      "candidate": "c08",
+      "family": "random_forest",
+      "max_depth": null,
+      "min_samples_leaf": 8,
+      "calibration": "none"
+    },
+    {
+      "candidate": "c09",
+      "family": "random_forest",
+      "max_depth": null,
+      "min_samples_leaf": 8,
+      "calibration": "sigmoid"
+    }
+  ],
+  "outer_folds": 5,
+  "selection_folds": 3,
+  "calibration_folds": 3,
+  "calibration_method": "sigmoid; ensemble=False; complete pipeline inside each calibration fit",
+  "calibration_score": "estimator decision_function when available, otherwise predict_proba",
+  "holdout_analyzed": false,
+  "cross_site_evaluated": false,
+  "hashes": {
+    "scripts/day03_preprocessing.py": "50a6bcfff16381f7d5ee4d8575ad9be1e6234426574ebb6a38720ed8332d1714",
+    "scripts/day04_baselines.py": "8a01a3d2513ef663321de4351c5687ff39c79e518b3dabe2a2e89b3328217ea1",
+    "scripts/day06_calibration.py": "d3d44a0ee32204c7fa9fff14a728b27453617427de7e035674d4fb0a2071f8ad",
+    "reports/day01/cleveland_split.csv": "0e71eeb8213c92017564a56c1cf9b18b0082fe10caabe737125f2f1fa123ae35",
+    "reports/day03/development_folds.csv": "486e8a9410dc2ed40b06cff75b88b1b189a7dd306725b52701d25e18ef65dfb6",
+    "data/raw/processed.cleveland.data": "a74b7efa387bc9d108d7d0115d831fe9b414b29ae7124f331b622b4efa0427c8"
+  },
+  "limitations": "Day 5 informed shortlist; reused development folds are not fresh confirmation."
+}

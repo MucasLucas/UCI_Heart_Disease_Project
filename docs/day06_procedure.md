@@ -1,6 +1,9 @@
 # Day 6: calibration, decision threshold, and proposed model freeze
 
-Status: procedure prepared; local run and accepted freeze remain pending.
+Status: uploaded results reviewed October 19, 2026. The specification and reported
+local bundle identity are accepted for project evaluation in
+reports/day06/accepted_freeze.json. Verify the local bundle checksum before
+loading; the binary was not uploaded. See reports/day06/interpretation.md.
 Target: existing CAD. Primary predictors: the same 12 later-workup variables,
 excluding ca. The 61-record test set and external cohorts remain untouched.
 

@@ -2,9 +2,10 @@
 
 An evaluation-first study of the historical UCI Heart Disease cohorts, emphasizing
 sensitivity, calibration, predictor availability, and cross-site transportability.
-Status: Day 5 nested tree-model comparison reviewed; development CV only.
-Next: Day 6 calibration and threshold selection. The 61-record internal test remains locked.
-See reports/day05/interpretation.md for the reviewed uploaded results.
+Status: Day 6 results reviewed and evaluation specification frozen.
+Next: local model-checksum preflight, then Day 7 explanations and subgroup review.
+The 61-record internal test remains locked. See reports/day06/interpretation.md
+and reports/day06/accepted_freeze.json; the local model binary was not uploaded.
 
 ## Start here
 Requires Python 3.10 or newer. From this directory:

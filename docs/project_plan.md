@@ -50,10 +50,13 @@ Direct GitHub pushes require a specified accessible repository and reviewed work
   candidates match the prespecified grids. Selected parameters reconstructed from
   uploaded search results. See reports/day05/interpretation.md. Local manifest,
   environment, and terminal exit-code evidence remain provenance follow-ups.
-- Current task: Day 6 calibration and threshold selection using development data.
-  Runnable procedure: docs/day06_procedure.md and scripts/day06_calibration.py.
-  Compare ten fixed logistic/forest and sigmoid/no-calibration candidates using
-  three-level development validation. A proposed bundle/cutoff is pending local
-  review; an accepted model/hash/threshold freeze must precede final test access.
+- Day 6: uploaded outputs reviewed; pooled policy metrics independently
+  reconciled with 242 development predictions. Evaluation specification frozen
+  as c06, no sigmoid calibration, cutoff 0.3528716233973672. See
+  reports/day06/accepted_freeze.json and interpretation.md. Outer sensitivity
+  was 0.8829, below the 0.90 target. Local binary identity remains reported,
+  not independently inspected; verify its checksum before loading.
+- Current task: local artifact-checksum preflight, then Day 7 explanations and
+  subgroup review. No refitting or cutoff changes after locked-test access.
 - Scope: existing coronary artery disease classification using UCI Heart Disease.
 - Original October 14–23 schedule and completion gates remain in effect.
