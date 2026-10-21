@@ -58,3 +58,9 @@ git push
 For a new local repository, initialize main and configure the user-provided remote
 before pushing: git init -b main; git remote add origin YOUR_REPOSITORY_URL;
 then use git push -u origin main after the first commit.
+
+## Frozen-model explanations and subgroup review
+Day 7's runnable procedure is docs/day07_procedure.md. It verifies the accepted
+local bundle before loading, explains the frozen forest, and uses Day 6
+out-of-fold policy predictions for descriptive subgroup metrics. It does not fit
+models or inspect the locked test set. Local Day 7 output review remains pending.

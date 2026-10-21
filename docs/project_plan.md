@@ -58,7 +58,9 @@ Direct GitHub pushes require a specified accessible repository and reviewed work
   checksum comparison returning True on October 20. The printed bundle hash
   matches the accepted freeze. The binary remains local, not independently
   inspected here; repeat checksum verification before future loads.
-- Current task: Day 7 explanations and subgroup review. No refitting or cutoff
-  changes after locked-test access.
+- Current task: Day 7 explanations and subgroup review. Runnable procedure:
+  docs/day07_procedure.md and scripts/day07_explanations.py. Reference analysis
+  checks passed; Lucas's local execution and output review remain pending.
+  No refitting or cutoff changes after locked-test access.
 - Scope: existing coronary artery disease classification using UCI Heart Disease.
 - Original October 14–23 schedule and completion gates remain in effect.
