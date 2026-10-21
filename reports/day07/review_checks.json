@@ -1,0 +1,60 @@
+{
+  "review_date_local": "2026-10-20",
+  "timezone": "America/Los_Angeles",
+  "images_visually_reviewed": true,
+  "subgroup_rows_recomputed": 6,
+  "global_features_checked": 12,
+  "local_contributions_checked": 36,
+  "local_examples_reconstruct_reference_predictions": true,
+  "all_three_csvs_match_reference_within_tolerance": true,
+  "manifest_matches_accepted_bundle_identity_and_cutoff": true,
+  "manifest_input_hash_checks": {
+    "scripts/day07_explanations.py": [
+      "exact",
+      "LF"
+    ],
+    "scripts/day03_preprocessing.py": [
+      "exact",
+      "LF"
+    ],
+    "scripts/day04_baselines.py": [
+      "exact",
+      "LF"
+    ],
+    "reports/day06/accepted_freeze.json": [
+      "exact",
+      "LF"
+    ],
+    "reports/day06/run_manifest.json": [
+      "exact",
+      "LF"
+    ],
+    "reports/day06/policy_oof_predictions.csv": [
+      "exact",
+      "LF"
+    ],
+    "reports/day01/cleveland_split.csv": [
+      "CRLF"
+    ],
+    "reports/day03/development_folds.csv": [
+      "CRLF"
+    ],
+    "data/raw/processed.cleveland.data": [
+      "exact",
+      "LF"
+    ]
+  },
+  "full_user_model_binary_supplied": false,
+  "full_user_shap_matrix_supplied": false,
+  "user_manifest_reports_additivity_error": 7.771561172376096e-16,
+  "terminal_exit_code_supplied": false,
+  "source_sha256": {
+    "global_shap.csv": "4d7aaec6ab35187beeae02a14ad71284f81797cd69c1d5640d73824f07343bf9",
+    "local_explanations.csv": "8f842957baa0fc4015903fca5e0be24761d5dd653351f533747cad4dc5b6c791",
+    "subgroup_metrics.csv": "4deab788599a08934eabe9ec1bfefa0d1acc48f399f9e42e14b83cbbec6000b2",
+    "run_manifest(1).json": "72554facc66ef06b96bd28b11b136535d814175e163849af2f15ca03cb6557cf",
+    "global_shap.png": "e6f2c8ec90a37cae688c1077ca16ee182f33a59cac8779266f8a4483795210e0",
+    "local_shap.png": "cbd1ed1644dc95cdd9ce544be0e23eb1d1017731fe870eb08bee16398489d63d",
+    "subgroup_intervals.png": "91b4243ebca8279b5df1b58182a80c0cea08fdd4cb4781abc0bcfc9e738f542d"
+  }
+}

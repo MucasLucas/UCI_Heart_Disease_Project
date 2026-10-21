@@ -1,8 +1,9 @@
 # Day 7: frozen-model explanations and development subgroup review
 
-Status: runnable procedure prepared; Lucas's local execution, interpretation, and
-completion review remain pending. Use the accepted Day 6 model without refitting,
-recalibration, threshold changes, or test access.
+Status: Day 7 output review complete on October 20, 2026. Uploaded tables,
+plots, and manifest passed review; interpretation and evidence limits are recorded
+in reports/day07/interpretation.md. Use the accepted Day 6 model without refitting,
+recalibration, or threshold changes.
 
 ## Two analyses with different purposes
 

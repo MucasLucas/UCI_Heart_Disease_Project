@@ -1,0 +1,52 @@
+{
+  "additivity_max_abs_error": 7.771561172376096e-16,
+  "background_source_cohort_n": 242,
+  "local_case_ids": [
+    "cleveland:0001",
+    "cleveland:0002",
+    "cleveland:0003"
+  ],
+  "top_features": [
+    "thal",
+    "cp",
+    "slope",
+    "sex",
+    "exang"
+  ],
+  "subgroup_rows": 6,
+  "development_n": 242,
+  "python": "3.12.10",
+  "shap": "0.50.0",
+  "scikit_learn": "1.9.1",
+  "numpy": "2.5.4",
+  "pandas": "2.3.3",
+  "joblib": "1.6.0",
+  "frozen_model_sha256": "948f8939076cdc1e001a74d7bb414b28c88e21b7de32b0a2172fdc4a805ce1ae",
+  "threshold": 0.3528716233973672,
+  "model_refitted": false,
+  "threshold_changed": false,
+  "holdout_analyzed": false,
+  "shap_output": "class 1 probability (native raw output of sklearn forest)",
+  "feature_perturbation": "tree_path_dependent",
+  "background_selection": "implicit fitted-tree training path counts; source cohort is development only",
+  "aggregation": "sum encoded contributions per original input; not grouped-coalition SHAP",
+  "explanation_cohort": "frozen full-fit model on development training records; descriptive",
+  "subgroup_prediction_source": "Day 6 nested selection-policy OOF scores and fold-specific cutoffs",
+  "age_bands": [
+    "<50",
+    "50-59",
+    "60+"
+  ],
+  "subgroup_interval": "Wilson 95%; descriptive; excludes fitting/selection uncertainty",
+  "hashes": {
+    "scripts/day07_explanations.py": "e9562cf5a331d20c0adee4ed3d1e509d9a10f585c6df44788e8bcc4a452ac15a",
+    "scripts/day03_preprocessing.py": "50a6bcfff16381f7d5ee4d8575ad9be1e6234426574ebb6a38720ed8332d1714",
+    "scripts/day04_baselines.py": "8a01a3d2513ef663321de4351c5687ff39c79e518b3dabe2a2e89b3328217ea1",
+    "reports/day06/accepted_freeze.json": "c9a16dece9cbb2ed51612ecd6f57defb0fb56a9928d11aa3ef96230887a34d13",
+    "reports/day06/run_manifest.json": "eacfdfb9d3083e581b5cce0c7a01c76311615d144f674d3c23c1f0cb3d17982d",
+    "reports/day06/policy_oof_predictions.csv": "459a4318694c7c6f6c6ec259e5e4126f501a823757138aa692eb008e7e652718",
+    "reports/day01/cleveland_split.csv": "0e71eeb8213c92017564a56c1cf9b18b0082fe10caabe737125f2f1fa123ae35",
+    "reports/day03/development_folds.csv": "486e8a9410dc2ed40b06cff75b88b1b189a7dd306725b52701d25e18ef65dfb6",
+    "data/raw/processed.cleveland.data": "a74b7efa387bc9d108d7d0115d831fe9b414b29ae7124f331b622b4efa0427c8"
+  }
+}

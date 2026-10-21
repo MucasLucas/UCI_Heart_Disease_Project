@@ -2,8 +2,8 @@
 
 An evaluation-first study of the historical UCI Heart Disease cohorts, emphasizing
 sensitivity, calibration, predictor availability, and cross-site transportability.
-Status: Day 6 complete; reviewed specification frozen and local checksum check passed.
-Next: Day 7 explanations and subgroup review.
+Status: Day 7 explanations and development subgroup review complete.
+Next: Day 8 locked internal and cross-site evaluation without retuning.
 The 61-record internal test remains locked. See reports/day06/interpretation.md
 and reports/day06/accepted_freeze.json; the local model binary was not uploaded.
 
@@ -63,4 +63,4 @@ then use git push -u origin main after the first commit.
 Day 7's runnable procedure is docs/day07_procedure.md. It verifies the accepted
 local bundle before loading, explains the frozen forest, and uses Day 6
 out-of-fold policy predictions for descriptive subgroup metrics. It does not fit
-models or inspect the locked test set. Local Day 7 output review remains pending.
+models or inspect the locked test set. Reviewed uploaded results and limitations are recorded in reports/day07/interpretation.md.
