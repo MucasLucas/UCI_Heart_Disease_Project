@@ -86,8 +86,8 @@ No outer-validation results were used to adjust the documented selection rule.
   SHA-256 values differ from LF reference bytes exactly as expected from Windows
   CRLF endings; normalization preserves identical reviewed records/folds.
 - The local manifest reports Python 3.12.10, scikit-learn 1.9.1, pandas 2.3.3,
-  NumPy 2.5.4, and joblib 1.6.0. It is retained as local-run provenance. No terminal
-  exit code or full environment export was supplied; do not invent either.
+  NumPy 2.5.4, and joblib 1.6.0. It is retained as local-run provenance. A subsequent terminal transcript supplies exit code 0 and a successful local
+  checksum comparison. The full environment export file was not supplied.
 - The small historical referral cohort, adaptive Day 5 shortlist, reused folds,
   sparse calibration bins, and selection uncertainty limit interpretation.
   No confidence intervals or prospective validation are established by this review.
@@ -109,3 +109,14 @@ the authoritative review decision and must agree on model identity and cutoff.
 The Day 6 methodological review and specification freeze are complete. Day 7
 covers explanations and subgroup review after artifact preflight. Day 8 remains
 the first locked internal and cross-site evaluation, without retuning.
+
+## Local preflight completion — October 20, 2026
+
+Lucas supplied the complete local Day 6 run showing all five outer folds,
+selection of c06, the accepted cutoff and bundle hash, PASS, and exit code 0.
+The package-version export command completed without a reported error. The
+PowerShell comparison of the local joblib SHA-256 against candidate_freeze.json
+returned True. The printed hash matches accepted_freeze.json. This is reviewed
+user-supplied local verification, not an independent inspection of the binary.
+Day 6 is complete; proceed to Day 7 using the same frozen artifact and cutoff.
+The internal test remains locked. Recheck the accepted hash before loading.

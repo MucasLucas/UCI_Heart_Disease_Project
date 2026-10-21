@@ -36,7 +36,7 @@
   "local_model_binary_checksum_independently_verified": false,
   "full_local_candidate_predictions_supplied": false,
   "local_inner_membership_supplied": false,
-  "local_exit_code_supplied": false,
+  "local_exit_code_supplied": true,
   "source_sha256": {
     "candidate_freeze.json": "05871e41a2c5f573f2d883306e0ab30f48c2d7c6e39243f54500de91834d85b4",
     "run_manifest.json": "13aa549f831517045b165d4f7bb8c6981a86c87a7e75117c22fc96be6520b3f3",
@@ -45,5 +45,11 @@
     "outer_selection.csv": "5fa60d88b831778f8e9f0efa8b60b96a43ad9006c8f24417f2636bfa2ec1d7cf",
     "final_selection_metrics.csv": "1982a2294756a98c58602cf26b451b11f52e562ef01fe46e03637a159f6d87e5",
     "calibration_threshold.png": "ab4d7f90c5cae904271484d49a15779d88f90abef1bbd389639f94dc1926ddff"
-  }
+  },
+  "local_exit_code": 0,
+  "local_checksum_comparison_supplied": true,
+  "local_checksum_comparison_result": true,
+  "local_preflight_date": "2026-10-20",
+  "local_environment_export_command_completed_without_reported_error": true,
+  "local_environment_export_file_uploaded": false
 }

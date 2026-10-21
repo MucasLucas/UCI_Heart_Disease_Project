@@ -50,13 +50,15 @@ Direct GitHub pushes require a specified accessible repository and reviewed work
   candidates match the prespecified grids. Selected parameters reconstructed from
   uploaded search results. See reports/day05/interpretation.md. Local manifest,
   environment, and terminal exit-code evidence remain provenance follow-ups.
-- Day 6: uploaded outputs reviewed; pooled policy metrics independently
+- Day 6: complete; uploaded outputs reviewed; pooled policy metrics independently
   reconciled with 242 development predictions. Evaluation specification frozen
   as c06, no sigmoid calibration, cutoff 0.3528716233973672. See
   reports/day06/accepted_freeze.json and interpretation.md. Outer sensitivity
-  was 0.8829, below the 0.90 target. Local binary identity remains reported,
-  not independently inspected; verify its checksum before loading.
-- Current task: local artifact-checksum preflight, then Day 7 explanations and
-  subgroup review. No refitting or cutoff changes after locked-test access.
+  was 0.8829, below the 0.90 target. Lucas supplied exit code 0 and a local
+  checksum comparison returning True on October 20. The printed bundle hash
+  matches the accepted freeze. The binary remains local, not independently
+  inspected here; repeat checksum verification before future loads.
+- Current task: Day 7 explanations and subgroup review. No refitting or cutoff
+  changes after locked-test access.
 - Scope: existing coronary artery disease classification using UCI Heart Disease.
 - Original October 14–23 schedule and completion gates remain in effect.

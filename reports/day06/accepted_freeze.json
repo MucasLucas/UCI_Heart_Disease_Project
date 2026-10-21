@@ -50,7 +50,10 @@
     "checksum_source": "user-uploaded candidate_freeze.json",
     "binary_uploaded": false,
     "independently_verified": false,
-    "verify_before_loading": true
+    "verify_before_loading": true,
+    "local_preflight_passed": true,
+    "local_preflight_date": "2026-10-20",
+    "evidence": "Lucas supplied PowerShell Get-FileHash comparison returning True; terminal prints the same accepted SHA-256."
   },
   "outer_policy_assessment": {
     "sensitivity": 0.8828828828828829,

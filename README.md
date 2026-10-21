@@ -2,8 +2,8 @@
 
 An evaluation-first study of the historical UCI Heart Disease cohorts, emphasizing
 sensitivity, calibration, predictor availability, and cross-site transportability.
-Status: Day 6 results reviewed and evaluation specification frozen.
-Next: local model-checksum preflight, then Day 7 explanations and subgroup review.
+Status: Day 6 complete; reviewed specification frozen and local checksum check passed.
+Next: Day 7 explanations and subgroup review.
 The 61-record internal test remains locked. See reports/day06/interpretation.md
 and reports/day06/accepted_freeze.json; the local model binary was not uploaded.
 
