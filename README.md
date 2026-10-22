@@ -64,3 +64,10 @@ Day 7's runnable procedure is docs/day07_procedure.md. It verifies the accepted
 local bundle before loading, explains the frozen forest, and uses Day 6
 out-of-fold policy predictions for descriptive subgroup metrics. It does not fit
 models or inspect the locked test set. Reviewed uploaded results and limitations are recorded in reports/day07/interpretation.md.
+
+## Final internal and external evaluation
+Day 8's procedure is docs/day08_evaluation_protocol.md. Before generating final
+predictions, it verifies the frozen artifact/environment, all four raw source
+hashes, the 61-record internal split, and the declared external exclusion/zero
+rules. It reports each cohort separately with confidence intervals. Synthetic
+implementation checks passed; actual local evaluation and review remain pending.
