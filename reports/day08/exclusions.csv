@@ -1,0 +1,3 @@
+site,record_id,reason
+hungarian,hungarian:0102,exact_full_source_row_duplicate_keep_first
+va,va:0187,exact_full_source_row_duplicate_keep_first

@@ -64,11 +64,17 @@ Direct GitHub pushes require a specified accessible repository and reviewed work
   results. Accepted model identity/cutoff and source hashes match the manifest.
   See reports/day07/interpretation.md and review_checks.json. Full model/SHAP
   matrices and terminal exit code were not supplied; evidence limits are recorded.
-- Current task: Day 8 locked internal and cross-site evaluation using the accepted
-  artifact and cutoff. Runnable script: scripts/day08_final_evaluation.py; fixed
-  external-data rules and uncertainty methods: docs/day08_evaluation_protocol.md.
-  Synthetic integration and plot checks passed. Actual local final evaluation,
-  output review, and interpretation remain pending. No refitting or retuning in
-  response to evaluation results.
+- Day 8: complete numerical review with explicit provenance limits; 676 uploaded
+  predictions reconcile with all four site point estimates and bootstrap intervals.
+  Internal test IDs/labels and six internal subgroup rows independently verified;
+  all 24 subgroup rows reconcile algebraically. Six CSVs and two PNGs match run
+  checksums; the uploaded site-comparison PNG differs in bytes but visually agrees
+  with the metrics. External raw/subgroup membership, local binary, terminal exit
+  code and environment.txt were not independently supplied/reloaded for this review.
+  See reports/day08/interpretation.md and review_checks.json. The internal test is
+  now evaluated. Model and cutoff remain frozen; no retuning follows.
+- Current task: Day 9 professional report using the final internal and separate
+  external results, uncertainty, explanatory scope, and provenance limitations.
 - Scope: existing coronary artery disease classification using UCI Heart Disease.
 - Original October 14–23 schedule and completion gates remain in effect.
+

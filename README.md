@@ -2,10 +2,11 @@
 
 An evaluation-first study of the historical UCI Heart Disease cohorts, emphasizing
 sensitivity, calibration, predictor availability, and cross-site transportability.
-Status: Day 7 explanations and development subgroup review complete.
-Next: Day 8 locked internal and cross-site evaluation without retuning.
-The 61-record internal test remains locked. See reports/day06/interpretation.md
-and reports/day06/accepted_freeze.json; the local model binary was not uploaded.
+Status: Day 8 final internal and separate external evaluation reviewed.
+Next: Day 9 professional report. The 61-record internal test has been evaluated;
+no retuning follows. See reports/day08/interpretation.md for final results and
+provenance limits, and reports/day06/accepted_freeze.json for the unchanged model.
+The local model binary was not uploaded.
 
 ## Start here
 Requires Python 3.10 or newer. From this directory:
@@ -69,5 +70,9 @@ models or inspect the locked test set. Reviewed uploaded results and limitations
 Day 8's procedure is docs/day08_evaluation_protocol.md. Before generating final
 predictions, it verifies the frozen artifact/environment, all four raw source
 hashes, the 61-record internal split, and the declared external exclusion/zero
-rules. It reports each cohort separately with confidence intervals. Synthetic
-implementation checks passed; actual local evaluation and review remain pending.
+rules. It reports each cohort separately with confidence intervals. The actual local outputs have been reviewed: Cleveland test ROC-AUC 0.957,
+Hungarian 0.903, Switzerland 0.766, and VA 0.721. Sensitivity/specificity, uncertainty,
+calibration, cohort handling, and the site-comparison image checksum discrepancy
+are recorded in reports/day08/interpretation.md. Cross-site performance varies;
+these historical results do not establish clinical readiness.
+

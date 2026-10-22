@@ -1,9 +1,11 @@
 # Day 8: final evaluation protocol and run procedure
 
 Specified October 21, 2026 (America/Los_Angeles), before computing final model
-predictions. Status: script prepared; Lucas's actual local evaluation and output
-review remain pending. The preparation tests use synthetic data, not a substitute
-model evaluated on the actual test patients.
+predictions. Status: actual uploaded outputs reviewed; see
+reports/day08/interpretation.md and review_checks.json for results and evidence
+limits, including one image checksum discrepancy. The internal test is now
+evaluated. The preparation tests used synthetic data, not a substitute model
+evaluated on actual test patients.
 
 ## Frozen question and artifact
 
@@ -163,3 +165,4 @@ of valid zeros and negative oldpeak; internal contamination rejection; subgroup
 partitions; and plot rendering. No actual locked-test or external predictions
 were generated during script preparation, and the separate reference bundle
 was not substituted for the accepted local artifact.
+

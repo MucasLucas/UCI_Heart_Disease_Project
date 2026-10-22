@@ -1,0 +1,41 @@
+{
+  "status": "review_passed_with_evidence_limits",
+  "prediction_n": 676,
+  "site_n": 4,
+  "site_numeric_fields_recomputed": 140,
+  "bootstrap_repeats_per_site": 2000,
+  "uploaded_file_sha256_verified": {
+    "predictions.csv": "1eab25426c5974b93d765b64bc9d8170056185a72697b1b88797cface5dde4e6",
+    "site_metrics.csv": "4359034b3932442cde472405c953c0338fefa34b487d98961c94e3aeab34b418",
+    "subgroup_metrics.csv": "9d0851bfb351ced81bb1f58386957ab89db0bd88e819ec5dd9c0667123899706",
+    "cohort_audit.csv": "7237f93849ee530a7c4fec56bde0c1a853f7306d839c059dd93e14b9a3852b77",
+    "exclusions.csv": "8c122add3f22ada749585d83d7cb79f10df81e4e650382cf2a2e4d56c64f31ba",
+    "missingness_and_cleaning.csv": "398d32a2928d0fa404444156b45f91a82270cb36841d26ed0e0687f22607b488",
+    "roc_pr.png": "4c34c88b64101d0f831405e766331e644cbfb5bac741ca19ef3f7867ef227583",
+    "calibration.png": "03e9524d6ca39e6e07a81b0823467160fe8085507a6c47a3572a5aff90fc323e"
+  },
+  "script_and_dependency_hashes_verified": true,
+  "accepted_model_identity_and_threshold_match": true,
+  "all_decisions_match_frozen_threshold": true,
+  "internal_locked_ids_and_labels_verified": true,
+  "development_rows_in_final_internal_predictions": 0,
+  "subgroup_rows_algebra_and_intervals_verified": 24,
+  "cleveland_subgroup_rows_fully_recomputed": 6,
+  "site_comparison_png_sha256_mismatch": {
+    "expected": "15fff2a5d14f03fbf49016f27c1e46a41e5edce15f3ae3644c13864a58543e57",
+    "received": "bc8eea4723b74a4f1658ed970cbb2171ebe61574591312c77ba894b6d94e41ea",
+    "handling": "Retained uploaded image unchanged; numeric plot positions visually match verified site metrics. Original byte provenance unresolved."
+  },
+  "external_subgroup_membership_independently_verified": false,
+  "external_raw_source_bytes_independently_verified": false,
+  "derived_tables": [
+    "roc_pr_curves.csv",
+    "calibration_bins.csv"
+  ],
+  "evidence_limits": [
+    "Accepted Windows model binary was not uploaded; artifact identity relies on submitted manifest and earlier local checksum evidence. No new predictions or refitting performed during review.",
+    "External source hashes, exclusions and cleaning are recorded by the submitted run; external raw bytes and demographic subgroup membership were not independently reloaded in this review.",
+    "Terminal output, exit code and full local environment.txt were not supplied for Day 8. Package versions are recorded in run_manifest.json.",
+    "Curve and calibration tables were reconstructed from uploaded probabilities; their original local CSV bytes were not supplied. Original uploaded output hashes remain unchanged in run_manifest.json."
+  ]
+}

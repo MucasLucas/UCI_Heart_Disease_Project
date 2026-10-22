@@ -1,0 +1,59 @@
+{
+  "python": "3.12.10",
+  "scikit_learn": "1.9.1",
+  "numpy": "2.5.4",
+  "pandas": "2.3.3",
+  "joblib": "1.6.0",
+  "model_sha256": "948f8939076cdc1e001a74d7bb414b28c88e21b7de32b0a2172fdc4a805ce1ae",
+  "threshold": 0.3528716233973672,
+  "script_sha256": "7c50a2851394a8f68c1bea57a127735600f2293b5435c96fc9903568608abfb7",
+  "dependency_sha256": {
+    "scripts/frozen_artifact.py": "233b5242aab1593b7dea4fc7f3d77060c47fc4fba55b1641816fdd95191e0585",
+    "scripts/day03_preprocessing.py": "50a6bcfff16381f7d5ee4d8575ad9be1e6234426574ebb6a38720ed8332d1714",
+    "scripts/day04_baselines.py": "8a01a3d2513ef663321de4351c5687ff39c79e518b3dabe2a2e89b3328217ea1"
+  },
+  "source_sha256": {
+    "processed.cleveland.data": "a74b7efa387bc9d108d7d0115d831fe9b414b29ae7124f331b622b4efa0427c8",
+    "processed.hungarian.data": "d1ad108f785768cd3d7e82dc522e6f5a61eea93cccfb3a46ee8076f73fc3d796",
+    "processed.switzerland.data": "834a405ccf5b66ab4056bb77794adc8df0b7125186454c0a1d002d33c6c3b314",
+    "processed.va.data": "e7c93d8d0d2acdadfa4c5e8de768e2191e7f618b952e29623f1f0d5949ff6b8f"
+  },
+  "accepted_freeze_sha256": "c9a16dece9cbb2ed51612ecd6f57defb0fb56a9928d11aa3ef96230887a34d13",
+  "split_sha256": "0e71eeb8213c92017564a56c1cf9b18b0082fe10caabe737125f2f1fa123ae35",
+  "holdout_unlocked_for_final_evaluation": true,
+  "model_refitted": false,
+  "threshold_changed": false,
+  "calibrator_fitted": false,
+  "external_zero_rule": "chol/trestbps zeros -> missing; frozen Cleveland imputer only",
+  "external_exclusion_rule": "exact full source duplicates keep first; exclude primary-predictor matches to any Cleveland row",
+  "internal_test_rule": "all 61 frozen records; stop if primary predictor overlap with development",
+  "bootstrap_replicates": 2000,
+  "bootstrap_seeds": [
+    8100,
+    8101,
+    8102,
+    8103
+  ],
+  "interval_methods": "Wilson for binomial rates; ordinary within-site percentile bootstrap for ROC-AUC/AP/Brier",
+  "bootstrap_limitation": "conditional on fitted model/cutoff; no training/selection uncertainty; single-class AUC/AP resamples omitted",
+  "patient_identity_limitation": "record-matching/deduplication heuristics do not establish unique patients",
+  "no_external_pooling": true,
+  "subgroup_bands": [
+    "<50",
+    "50-59",
+    "60+"
+  ],
+  "output_sha256": {
+    "predictions.csv": "1eab25426c5974b93d765b64bc9d8170056185a72697b1b88797cface5dde4e6",
+    "site_metrics.csv": "4359034b3932442cde472405c953c0338fefa34b487d98961c94e3aeab34b418",
+    "subgroup_metrics.csv": "9d0851bfb351ced81bb1f58386957ab89db0bd88e819ec5dd9c0667123899706",
+    "cohort_audit.csv": "7237f93849ee530a7c4fec56bde0c1a853f7306d839c059dd93e14b9a3852b77",
+    "exclusions.csv": "8c122add3f22ada749585d83d7cb79f10df81e4e650382cf2a2e4d56c64f31ba",
+    "missingness_and_cleaning.csv": "398d32a2928d0fa404444156b45f91a82270cb36841d26ed0e0687f22607b488",
+    "roc_pr_curves.csv": "b8c6266f2559b671720e58c6d027d6d4aefb2805442ecb7b8dba719a1eb40d07",
+    "calibration_bins.csv": "f0936679e76ec689e804f47f628cab069aa141b19862e7475cf4382b1851078f",
+    "roc_pr.png": "4c34c88b64101d0f831405e766331e644cbfb5bac741ca19ef3f7867ef227583",
+    "calibration.png": "03e9524d6ca39e6e07a81b0823467160fe8085507a6c47a3572a5aff90fc323e",
+    "site_comparison.png": "15fff2a5d14f03fbf49016f27c1e46a41e5edce15f3ae3644c13864a58543e57"
+  }
+}
