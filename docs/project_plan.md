@@ -73,8 +73,16 @@ Direct GitHub pushes require a specified accessible repository and reviewed work
   code and environment.txt were not independently supplied/reloaded for this review.
   See reports/day08/interpretation.md and review_checks.json. The internal test is
   now evaluated. Model and cutoff remain frozen; no retuning follows.
-- Current task: Day 9 professional report using the final internal and separate
-  external results, uncertainty, explanatory scope, and provenance limitations.
+- Day 9: complete; professional report and editable source prepared using the
+  reviewed final outputs. All ten PDF pages visually checked; 64 final metric
+  values, five figures, full-precision cutoff, and DOI links verified. See
+  reports/day09/report.pdf, report.md, report_checks.json, and docs/day09_procedure.md.
+  No refitting, new predictions, or threshold changes. Existing evidence limits
+  remain explicit; personal editorial feedback can be incorporated later.
+- Current task: Day 10 reproducibility and portfolio packaging: full local
+  environment capture, clean-environment verification with artifact identity,
+  model card, one-page executive summary, README onboarding, and tagged release.
+  These final checks and release actions remain uncompleted.
 - Scope: existing coronary artery disease classification using UCI Heart Disease.
 - Original October 14–23 schedule and completion gates remain in effect.
 

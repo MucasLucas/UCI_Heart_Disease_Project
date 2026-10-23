@@ -2,8 +2,8 @@
 
 An evaluation-first study of the historical UCI Heart Disease cohorts, emphasizing
 sensitivity, calibration, predictor availability, and cross-site transportability.
-Status: Day 8 final internal and separate external evaluation reviewed.
-Next: Day 9 professional report. The 61-record internal test has been evaluated;
+Status: Day 9 professional report complete.
+Next: Day 10 reproducibility, model card, executive summary, and release packaging. The 61-record internal test has been evaluated;
 no retuning follows. See reports/day08/interpretation.md for final results and
 provenance limits, and reports/day06/accepted_freeze.json for the unchanged model.
 The local model binary was not uploaded.
@@ -75,4 +75,13 @@ Hungarian 0.903, Switzerland 0.766, and VA 0.721. Sensitivity/specificity, uncer
 calibration, cohort handling, and the site-comparison image checksum discrepancy
 are recorded in reports/day08/interpretation.md. Cross-site performance varies;
 these historical results do not establish clinical readiness.
+
+
+## Research report
+
+Read the [10-page research report](reports/day09/report.pdf) or its
+[editable Markdown source](reports/day09/report.md). It covers the methods,
+final results with uncertainty, calibration, SHAP, subgroup findings, and evidence
+limits. See [Day 9 procedure](docs/day09_procedure.md) for review and PDF rendering.
+Day 10's clean-environment checks and release packaging remain open.
 
