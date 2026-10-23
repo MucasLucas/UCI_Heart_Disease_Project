@@ -1,0 +1,36 @@
+{
+  "status": "documentation_and_evidence_package_complete_model_release_pending",
+  "date_local": "2026-10-23",
+  "basis_commit": "235391be80158a0614108cdeb8c91270833c8598",
+  "evidence_fresh_environment": true,
+  "evidence_pip_check": "passed",
+  "evidence_metric_fields_recomputed": 140,
+  "evidence_prediction_n": 676,
+  "integrity_tests_passed": 4,
+  "summary_pages": 1,
+  "summary_visual_review": "passed",
+  "model_refitted": false,
+  "model_loaded": false,
+  "new_model_predictions_generated": false,
+  "cutoff_changed": false,
+  "historical_day06_to_day09_outputs_modified": false,
+  "accepted_model_clean_environment_verification": "pending",
+  "tag_created": false,
+  "release_created": false,
+  "blockers": [
+    "Accepted Windows bundle unavailable for independent SHA-256/load/probability reproduction",
+    "Full original environment exports unavailable; current local capture and clean-install transcript pending",
+    "Original Day 8 terminal/exit-code evidence unavailable"
+  ],
+  "preserved_limits": [
+    "External source bytes and demographic membership not independently reloaded",
+    "Site-comparison PNG original-byte provenance unresolved",
+    "CRLF/LF and terminal blank-line transport differences explicitly documented",
+    "Conditional uncertainty, adaptive shortlist, sparse groups and feature timing limits retained"
+  ],
+  "summary_source_sha256": "f0befd84d500d99351551a9ffc9a30fdc0d91ab72e6b4cbbbd6ada9e959b5e99",
+  "summary_pdf_sha256": "cd7e68fb2be666b4fec1cf1c72220ad5445b19d92e77ff2eaf358c5d9ff62f51",
+  "relative_links_checked": 18,
+  "package_crc_and_all_file_hashes": "passed",
+  "package_repeat_build_identical": true
+}

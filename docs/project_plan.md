@@ -79,10 +79,17 @@ Direct GitHub pushes require a specified accessible repository and reviewed work
   reports/day09/report.pdf, report.md, report_checks.json, and docs/day09_procedure.md.
   No refitting, new predictions, or threshold changes. Existing evidence limits
   remain explicit; personal editorial feedback can be incorporated later.
-- Current task: Day 10 reproducibility and portfolio packaging: full local
-  environment capture, clean-environment verification with artifact identity,
-  model card, one-page executive summary, README onboarding, and tagged release.
-  These final checks and release actions remain uncompleted.
+- Day 10: report/evidence packaging complete on October 23; model card, one-page
+  executive summary, README, environment/access instructions, deterministic
+  release-candidate package and evidence verifier prepared. See
+  reports/day10/review.json and docs/reproducibility.md. Accepted Windows binary
+  and full original local environment exports remain unavailable; independent
+  clean-environment accepted-model reproduction is pending. No tagged release
+  is created while these gates remain open. All fitting and threshold choices
+  remain frozen after test exposure.
+- Current task: Lucas's minimal local artifact verification, followed by review
+  of clean-install transcript and JSON. Day 10's full reproduction/release gate
+  is explicitly partial; documentation and evidence deliverables are complete.
 - Scope: existing coronary artery disease classification using UCI Heart Disease.
 - Original October 14–23 schedule and completion gates remain in effect.
 

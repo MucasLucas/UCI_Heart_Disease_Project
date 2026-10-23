@@ -6,3 +6,6 @@ data/raw/*
 !data/raw/README.md
 data/interim/
 models/
+
+.venv-*/
+reports/day10/local_*
