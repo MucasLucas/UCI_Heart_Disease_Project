@@ -1,5 +1,19 @@
 # Reproducibility and artifact access
 
+## Verification update: October 23, 2026
+
+Submitted Windows clean-environment verification passed. All 676 probabilities,
+four raw source hashes, memberships, exclusions, cleaning and subgroup tables
+reproduced. The current environment export hash matches the JSON; terminal
+evidence reports exit code 0 and a passing pip check. These local execution
+records were reviewed remotely; the binary was not supplied to the reviewer.
+See [final_review.json](../reports/day10/final_review.json) and the
+[archived uploads](../reports/day10/windows_verification/). No tag or release
+has been published. The instructions and initial gate table below record the
+original Day 10 state; this dated addendum supersedes their pending local-check
+status. Historical report evidence limits, original Day 8 transcript absence,
+and the image discrepancy remain documented.
+
 ## Two verification levels
 
 1. **Evidence-only:** recompute all four sites' point estimates and 2,000-draw

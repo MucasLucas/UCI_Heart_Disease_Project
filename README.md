@@ -4,8 +4,11 @@
 Built by Lucas Medina. Strong internal performance did not translate into
 consistent external specificity or probability calibration.
 
-**Status:** report and Day 10 evidence package complete; accepted-model clean-
-environment reproduction and a tagged release are pending local artifacts.
+**Status:** Day 10 verification review complete. Submitted clean-environment
+Windows results reproduce the accepted model predictions and cohorts.
+[Final review](reports/day10/final_review.json) and
+[archived verification evidence](reports/day10/windows_verification/) document the
+local execution and review scope. No tagged release has been published.
 The 61-record test has been evaluated. The accepted c06 Random Forest and cutoff
 `0.3528716233973672` remain frozen; no retuning follows.
 
@@ -68,14 +71,15 @@ that test outcomes are exposed.
 
 ## Evidence and access limits
 
-The accepted Windows binary is local and not distributed. Full local environment
-exports and Day 8 terminal evidence are missing; partial package versions are
-recorded in manifests. Prior review did not independently reload external raw
-bytes/demographics. The uploaded site-comparison PNG does not match its manifest
-hash; both hashes and retained bytes remain preserved. The report uses the
-checksum-matching ROC/PR and calibration figures instead. Reconstructed curve/bin
-CSVs are identified as derived evidence. These limits block a verified tagged
-release, not access to the report or numerical evidence.
+The accepted Windows binary is local and not distributed. The submitted current
+environment export and clean-environment verification JSON are archived. Local
+verification reproduces all four cohorts and 676 probabilities; the reviewer did
+not receive or execute the binary. Original Day 8 terminal evidence remains
+unavailable. The current environment export is not a retrospective training lock.
+The site-comparison PNG hash discrepancy and documented text transport
+differences remain preserved. The report and executive summary retain their
+original evidence status; the final Day 10 review supplies the later verification
+addendum. Reconstructed curve/bin CSVs remain identified as derived evidence.
 
 Raw processed UCI files are Git-ignored; a clone does **not** include them. Source
 access/hashes are documented in [data/raw/README.md](data/raw/README.md) and Day 1's

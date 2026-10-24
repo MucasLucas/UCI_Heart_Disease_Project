@@ -2,7 +2,9 @@
 
 **Owner:** Lucas Medina. **Card date:** October 23, 2026.
 **Status:** historical educational study; report and evidence package available.
-Accepted-artifact reproduction in a clean environment remains pending.
+Submitted Windows clean-environment verification passed; see the
+[final review](../reports/day10/final_review.json). The reviewer did not receive
+or independently execute the model binary. No tagged release is published.
 
 ## Intended use and target
 
@@ -74,7 +76,7 @@ subgroups assess the final frozen model. Do not mix them.
 
 The final Swiss sex=0 subgroup detected 3/10 positives (95% Wilson interval
 10.8%-60.3%); its specificity is undefined with no negatives. VA sex=1 specificity
-is 10/48 (20.8%). Sparse groups and uncertain external demographic memberships
+is 10/48 (20.8%). Sparse groups and limited demographic information
 limit interpretation, without making missed cases unimportant. No fairness
 certification or formal adjusted disparity analysis is claimed.
 
@@ -85,14 +87,15 @@ certification or formal adjusted disparity analysis is claimed.
 - Missingness shifts are large: Swiss cholesterol is entirely unavailable;
   Hungary/VA have extensive missing workup inputs. Calibration differs by site.
 - No clinical utility, cost saving, causal effect, or prospective benefit was measured.
-- Accepted Windows binary has not been independently supplied/reloaded. Earlier
-  local checksum evidence and submitted manifests support its identity. A Linux
-  reference bundle must never replace it.
-- Full local environment exports and Day 8 exit-code evidence were not supplied.
-  Manifest versions are partial records, not a complete dependency lock.
-- External raw bytes and demographic memberships were not independently reloaded
-  in the numerical review. The site-comparison PNG differs from its run hash;
-  retained bytes and the discrepancy remain documented.
+- Submitted Windows verification reproduces all 676 probabilities and four raw
+  cohorts using the accepted model hash. Execution occurred locally; the reviewer
+  inspected uploaded records, not the model binary or raw source bytes.
+- A full current environment export is archived and its hash verified. It does
+  not retroactively establish a historical training lock. Original Day 8 terminal
+  evidence remains unavailable.
+- The site-comparison PNG differs from its run hash; retained bytes and the
+  discrepancy remain documented. Earlier report limitations describe the evidence
+  available when written; the final Day 10 review records subsequent local checks.
 
 The public repository contains code, reviewed probabilities, tables and report;
 raw data and model are excluded. Data attribution: Janosi, Steinbrunn, Pfisterer,

@@ -1,0 +1,108 @@
+{
+  "python": "3.12.10",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "joblib": "1.5.3",
+    "matplotlib": "3.10.8"
+  },
+  "model_refitted": false,
+  "cutoff_changed": false,
+  "new_evaluation_outputs_written": false,
+  "evidence": {
+    "status": "passed_with_documented_provenance_limits",
+    "prediction_n": 676,
+    "site_numeric_fields_recomputed": 140,
+    "bootstrap_replicates": 2000,
+    "reviewed_hashes": {
+      "predictions.csv": "340f915f30e71f4fd0b149bdc5368356cb3e4f639b38f33418928ee249b0dfb6",
+      "site_metrics.csv": "38a12b44e8516caceb6fa1c8e904fc403d75dc111df809b90e49478f1297f828",
+      "subgroup_metrics.csv": "7e60d1aa6118bacb3aa558932224c534d976a47b9596e8048d4a143822462aa0",
+      "cohort_audit.csv": "be6493290d6659255b1fc14011ec8af77c71d054d1ac48f9eda4431764d5c39c",
+      "exclusions.csv": "fcc0939e2d75624be8b3b98e221389e9cbfb609a56aa3970134d5058e5d62cc2",
+      "missingness_and_cleaning.csv": "c05b417a6b99f9a78a80adb88d07612fe30e40695b7f14b4a15a6cfecc3f379c",
+      "roc_pr.png": "4c34c88b64101d0f831405e766331e644cbfb5bac741ca19ef3f7867ef227583",
+      "calibration.png": "03e9524d6ca39e6e07a81b0823467160fe8085507a6c47a3572a5aff90fc323e"
+    },
+    "csv_line_ending_equivalence": {
+      "predictions.csv": {
+        "committed_sha256": "340f915f30e71f4fd0b149bdc5368356cb3e4f639b38f33418928ee249b0dfb6",
+        "uploaded_crlf_sha256": "1eab25426c5974b93d765b64bc9d8170056185a72697b1b88797cface5dde4e6"
+      },
+      "site_metrics.csv": {
+        "committed_sha256": "38a12b44e8516caceb6fa1c8e904fc403d75dc111df809b90e49478f1297f828",
+        "uploaded_crlf_sha256": "4359034b3932442cde472405c953c0338fefa34b487d98961c94e3aeab34b418"
+      },
+      "subgroup_metrics.csv": {
+        "committed_sha256": "7e60d1aa6118bacb3aa558932224c534d976a47b9596e8048d4a143822462aa0",
+        "uploaded_crlf_sha256": "9d0851bfb351ced81bb1f58386957ab89db0bd88e819ec5dd9c0667123899706"
+      },
+      "cohort_audit.csv": {
+        "committed_sha256": "be6493290d6659255b1fc14011ec8af77c71d054d1ac48f9eda4431764d5c39c",
+        "uploaded_crlf_sha256": "7237f93849ee530a7c4fec56bde0c1a853f7306d839c059dd93e14b9a3852b77"
+      },
+      "exclusions.csv": {
+        "committed_sha256": "fcc0939e2d75624be8b3b98e221389e9cbfb609a56aa3970134d5058e5d62cc2",
+        "uploaded_crlf_sha256": "8c122add3f22ada749585d83d7cb79f10df81e4e650382cf2a2e4d56c64f31ba"
+      },
+      "missingness_and_cleaning.csv": {
+        "committed_sha256": "c05b417a6b99f9a78a80adb88d07612fe30e40695b7f14b4a15a6cfecc3f379c",
+        "uploaded_crlf_sha256": "398d32a2928d0fa404444156b45f91a82270cb36841d26ed0e0687f22607b488"
+      }
+    },
+    "report_hashes_verified": true,
+    "report_source_text_equivalence": {
+      "reports/day05/interpretation.md": {
+        "committed_sha256": "744d5c50644694bc65d525d69b4c7750cb1ad0dda7e86dcae225f78b12ac3ce5",
+        "historical_sha256": "26fca002d5b04f9e89f02c63f9fbf0a5a67f15da1c6f0d8b94a4ead8fefcc1c0",
+        "transport_difference": "CRLF/LF or one terminal blank line"
+      },
+      "reports/day06/interpretation.md": {
+        "committed_sha256": "3d69353c050275c52869725807639d1fa5c3e55487a1297192c88c21c46b307e",
+        "historical_sha256": "77dfe9ecd7ae967aaf1d991399b04aad599a93cfb606b702553979a1100c2afa",
+        "transport_difference": "CRLF/LF or one terminal blank line"
+      },
+      "reports/day07/interpretation.md": {
+        "committed_sha256": "fe8bc80f3f15f3117e74645b6390414f20c622679fa3c4e17001fba5cfdb89b4",
+        "historical_sha256": "6663dc4022669764fcce4cede08077db2ed7b42a009845f7888a362efad41f45",
+        "transport_difference": "CRLF/LF or one terminal blank line"
+      },
+      "reports/day08/site_metrics.csv": {
+        "committed_sha256": "38a12b44e8516caceb6fa1c8e904fc403d75dc111df809b90e49478f1297f828",
+        "historical_sha256": "4359034b3932442cde472405c953c0338fefa34b487d98961c94e3aeab34b418",
+        "transport_difference": "CRLF/LF or one terminal blank line"
+      },
+      "reports/day08/subgroup_metrics.csv": {
+        "committed_sha256": "7e60d1aa6118bacb3aa558932224c534d976a47b9596e8048d4a143822462aa0",
+        "historical_sha256": "9d0851bfb351ced81bb1f58386957ab89db0bd88e819ec5dd9c0667123899706",
+        "transport_difference": "CRLF/LF or one terminal blank line"
+      },
+      "reports/day08/missingness_and_cleaning.csv": {
+        "committed_sha256": "c05b417a6b99f9a78a80adb88d07612fe30e40695b7f14b4a15a6cfecc3f379c",
+        "historical_sha256": "398d32a2928d0fa404444156b45f91a82270cb36841d26ed0e0687f22607b488",
+        "transport_difference": "CRLF/LF or one terminal blank line"
+      },
+      "reports/day08/run_manifest.json": {
+        "committed_sha256": "7030f2f4f4ddba8a01809112bc706ad96a1be0a661a8c4087cd56ed981f40f8b",
+        "historical_sha256": "86f7230a3144cb53b15ce1436aa52ca9737af96e2af3c0c0774b52920699f85e",
+        "transport_difference": "CRLF/LF or one terminal blank line"
+      }
+    },
+    "site_comparison_png_discrepancy_preserved": {
+      "expected": "15fff2a5d14f03fbf49016f27c1e46a41e5edce15f3ae3644c13864a58543e57",
+      "received": "bc8eea4723b74a4f1658ed970cbb2171ebe61574591312c77ba894b6d94e41ea",
+      "handling": "Retained uploaded image unchanged; numeric plot positions visually match verified site metrics. Original byte provenance unresolved."
+    },
+    "unavailable_report_raw_inputs": [
+      "data/raw/processed.cleveland.data"
+    ],
+    "external_membership_independently_verified": false
+  },
+  "accepted_model": {
+    "status": "pending",
+    "reason": "Accepted Windows binary/full environment unavailable to independent review"
+  },
+  "tagged_release_gate": "pending",
+  "status": "evidence_verified_model_verification_pending"
+}

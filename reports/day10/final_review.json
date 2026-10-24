@@ -1,0 +1,45 @@
+{
+  "status": "local_model_and_evidence_verification_reviewed",
+  "date_local": "2026-10-23",
+  "verified_snapshot_commit": "78dbe295b3e3d977114ef0fc7317b749ad19763a",
+  "execution_location": "Lucas Windows machine; submitted JSON and terminal evidence reviewed, not independently executed by reviewer",
+  "accepted_model": {
+    "status": "passed",
+    "probabilities_reproduced": 676,
+    "raw_sources_verified": 4,
+    "external_membership_independently_verified": true,
+    "model_sha256": "948f8939076cdc1e001a74d7bb414b28c88e21b7de32b0a2172fdc4a805ce1ae",
+    "environment_export_sha256": "b3f2a07b406556a1037fc8f44a6b97b5ce7805872d1c4e17e9dbc63c6eeba8f9"
+  },
+  "evidence_prediction_n": 676,
+  "site_numeric_fields_recomputed": 140,
+  "bootstrap_replicates": 2000,
+  "clean_environment_pip_check": {
+    "source": "user-supplied terminal output",
+    "command": ".\\.venv-model-check\\Scripts\\python.exe -m pip check",
+    "output": "No broken requirements found."
+  },
+  "verifier_exit_code": {
+    "source": "user-supplied terminal output",
+    "value": 0
+  },
+  "environment_file_sha256_verified": true,
+  "environment_contains_private_or_local_package_paths": false,
+  "model_refitted": false,
+  "cutoff_changed": false,
+  "historical_outputs_modified": false,
+  "tag_created": false,
+  "release_created": false,
+  "preserved_limits": [
+    "Model binary and raw sources remain on the user machine; reviewer checked supplied verification records, not the binary itself.",
+    "Current environment capture does not establish a complete historical Day 6 dependency lock.",
+    "Original Day 8 terminal transcript remains unavailable.",
+    "Site-comparison PNG byte provenance remains unresolved.",
+    "Documented transport differences and statistical limitations remain unchanged."
+  ],
+  "uploaded_artifact_sha256": {
+    "environment.txt": "b3f2a07b406556a1037fc8f44a6b97b5ce7805872d1c4e17e9dbc63c6eeba8f9",
+    "evidence_verification.json": "03fc4fdac8b5371b183f76708a39450aa55b480337b27ca7011ac8924b44bb4b",
+    "model_verification.json": "75a7e54bee975675a429352bbe58af1bb4159bc1034402b9cc06f1a1c69163f8"
+  }
+}
